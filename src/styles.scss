@@ -1,10 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
-* {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
 :root {
     --color-main:#2f3e9e ;
     --color-main-lighter :#6668d0;
@@ -12,14 +8,27 @@
     --color-bg-navbar :#F8F9FA ;
     --color-letters: #181819;
     --color-letters-disable: rgb(141, 141, 141);
-    // --color-secondary : #bf360c;
-    // --color-secondary-lighter : #f9683a;
-    // --color-secondary-darker : #870000;
   }
 
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2, h3 { 
+	font-size: 2.5em;
+	color: var(--color-main-darker); 
+} 
+
+p {
+	font-size: 1.2em;
+    line-height: 1.3;
+	color: #555555;	
+}
+
+
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+blockquote, pre,
+abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -37,7 +46,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;

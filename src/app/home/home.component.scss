@@ -48,7 +48,113 @@ header {
     height: 500px;
     background-repeat: no-repeat;   
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
+#quem-somos {
+    height: 400px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quem-somos-block {
+    text-align: center;
+    width: 50%;
+}
+
+#quem-somos-block h2 {
+    color: var(--color-main-darker);
+}
+
+#projeto {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    background-color: #f7f7f7;
+}
+
+#projeto-block {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 90px 0;
+}
+
+.projeto-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projeto-content img {
+    width: 100%;
+}
+
+.projeto-content p {
+    padding: 0 0 30px 0;
+}
+
+.projeto-content:nth-child(1) {
+    padding-right: 40px;
+}
+
+.projeto-content:nth-child(2) {
+    padding-left: 40px;
+}
+
+.btn-git {
+    color: white;
+    background-color: var(--color-main);
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-git:hover {
+    background-color: var(--color-main-darker);
+}
+
+#integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: #f7f7f7;
+}
+
+#integrantes-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 45px 0 90px 0;
+}
+
+#integrantes-block h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#integrantes-content {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.integrantes-item {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+ 
+.integrantes-spacing {
+    padding: 30px;    
+}
+
+.integrantes-item img{
+    width: 100%;
+    background-size: cover;   
+    background-position: center; 
+}
