@@ -1,0 +1,41 @@
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: #f7f7f7;
+}
+
+.integrantes-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 45px 0 90px 0;
+}
+
+.integrantes-block h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.integrantes-content {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.integrantes-item {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+ 
+.integrantes-spacing {
+    padding: 30px;    
+}
+
+.integrantes-item img{
+    width: 100%;
+    background-size: cover;   
+    background-position: center; 
+}

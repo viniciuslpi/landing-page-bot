@@ -1,0 +1,63 @@
+#menu {
+    background-color: var(--color-main);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-width {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    height: 100%;
+}
+
+#menu-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-bot {
+    background-color: var(--color-main-darker);
+    border-radius: 10px;
+    padding: 10 25px;
+}
+
+.btn-menu {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-menu:hover {
+    background-color: var(--color-main-lighter);
+}
+
+#header-img {
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2017/03/remedios-20131218-031.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;    
+}
