@@ -6,22 +6,30 @@
             <nav id="menu-nav">
                 <ul id="menu-items">
                     <li>
-                        <a routerLink="#" class="menu-item">Home</a>
+                        <a routerLink="/" class="menu-item btn-menu">Home</a>
                     </li>
                     <li>
-                        <a routerLink="#" class="menu-item">Quem somos</a>
+                        <a class="menu-item">
+                            <button (click)="scrollToElement('quem-somos-section')" class="btn-menu">Quem somos</button>
+                        </a>
                     </li>
                     <li>
-                        <a routerLink="#" class="menu-item">Projeto</a>
+                        <a class="menu-item">
+                            <button (click)="scrollToElement('projeto-section')" class="btn-menu">Projeto</button>
+                        </a>
                     </li>
                     <li>
-                        <a routerLink="#" class="menu-item">Depoimentos</a>
+                        <a class="menu-item">
+                            <button (click)="scrollToElement('projeto2-section')" class="btn-menu">Visão e valores</button>
+                        </a>
                     </li>
                     <li>
-                        <a routerLink="#" class="menu-item">Integrantes</a>
+                        <a class="menu-item">
+                            <button (click)="scrollToElement('integrantes-section')" class="btn-menu">Integrantes</button>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://wa.me/5511945206557" class="menu-item button-menu">Acesse o bot</a>
+                        <a href="https://wa.me/5511945206557" class="menu-item btn-bot">Acesse o bot</a>
                     </li>
                 </ul>
             </nav>
@@ -32,8 +40,8 @@
     </section>
 </header>
 <main>
-    <section id="quem-somos">
-        <div id="quem-somos-block">
+    <section class="quem-somos" id="quem-somos-section">
+        <div class="quem-somos-block">
             <h2>Quem somos</h2>
             <p>When things are clear, easy and relevant for patients, providers form stronger relationships, minimize
                 administrative burden and achieve better financial results, so what’s good for patients is good for
@@ -42,7 +50,7 @@
                 providers understand and engage patients more effectively.</p>
         </div>
     </section>
-    <section class="projeto">
+    <section class="projeto"  id="projeto-section">
         <div class="projeto-block">
             <div class="projeto-content">
                 <img src="https://veja.abril.com.br/wp-content/uploads/2017/03/remedios-20131218-031.jpg" alt="">
@@ -62,7 +70,7 @@
         </div>
 
     </section>
-    <section class="projeto2">
+    <section class="projeto2"  id="projeto2-section" >
         <div class="projeto-block2">
             <div class="projeto-content2">
                 <h3>Visão e Valores</h3>
@@ -77,10 +85,10 @@
             </div>
         </div>
     </section>
-    <section id="integrantes">
-        <div id="integrantes-block">
+    <section class="integrantes" id="integrantes-section">
+        <div class="integrantes-block">
             <h3>Integrantes</h3>
-            <div id="integrantes-content">
+            <div class="integrantes-content">
                 <div class="integrantes-item">
                     <img src="https://thiscatdoesnotexist.com" alt="">
                     <div class="integrantes-spacing">

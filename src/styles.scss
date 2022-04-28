@@ -1,17 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
+
 :root {
-    --color-main:#2f3e9e ;
+	--color-main:#2f3e9e ;
     --color-main-lighter :#6668d0;
     --color-main-darker :#00186f ;
     --color-bg-navbar :#F8F9FA ;
     --color-letters: #181819;
     --color-letters-disable: rgb(141, 141, 141);
-  }
+}
 
 * {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+	font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 h2, h3 { 
@@ -25,6 +26,9 @@ p {
 	color: #555555;	
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 html, body, div, span, applet, object, iframe,
 blockquote, pre,
