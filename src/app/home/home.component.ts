@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  public linkWhatsApp: String = "https://wa.me/5511945206557";
+
   constructor(private viewportScroller: ViewportScroller) { }
 
   ngOnInit(): void {
