@@ -61,3 +61,25 @@
     background-position: center;
     background-size: cover;    
 }
+
+@media (min-width: 1260px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1259px) {
+    #menu-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    #menu-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #menu-nav {
+        display: none;
+    }
+}
