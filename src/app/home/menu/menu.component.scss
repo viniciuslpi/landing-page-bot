@@ -12,6 +12,10 @@
     padding: 10px;
 }
 
+.container {
+    display: none;
+}
+
 #logo {
     height: 100%;
 }
@@ -81,5 +85,65 @@
 @media (max-width: 767px) {
     #menu-nav {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+        padding-top: 8px;
+    }
+    
+    #checkbox-menu {
+        position: relative;
+        opacity: 0;
+    }
+    
+    label {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 50px;
+    }
+    
+    label span {
+        position: absolute;
+        display: block;
+        height: 8px;
+        width: 100%;
+        border-radius: 30px;
+        background: white;
+        transition: 0.25s ease-in-out;
+    }
+    
+    label span:nth-child(1) {
+        top: 0;
+    }
+    
+    label span:nth-child(2) {
+        top: 16px;
+    }
+    
+    label span:nth-child(3) {
+        top: 32px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 16px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 16px;
     }
 }
