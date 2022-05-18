@@ -60,10 +60,6 @@
     background-color: var(--color-main-lighter);
 }
 
-.btn-bot {
-    background-color: var(--color-main-darker);
-}
-
 #header-img {
     background-image: url(https://veja.abril.com.br/wp-content/uploads/2017/03/remedios-20131218-031.jpg);
     width: 100%;
@@ -71,10 +67,6 @@
     background-repeat: no-repeat;   
     background-position: center;
     background-size: cover;    
-}
-
-@media (min-width: 1260px) {
-
 }
 
 @media (min-width: 1025px) and (max-width: 1259px) {
