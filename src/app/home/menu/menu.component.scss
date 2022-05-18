@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.menu-width a{
+    height: inherit;
+}
+
 .checkbox-menu, #checkbox-menu {
     display: none;
 }
@@ -40,8 +44,6 @@
 
 .btn-bot {
     background-color: var(--color-main-darker);
-    border-radius: 10px;
-    padding: 10 25px;
 }
 
 .btn-menu {
@@ -56,6 +58,10 @@
 
 .btn-menu:hover {
     background-color: var(--color-main-lighter);
+}
+
+.btn-bot {
+    background-color: var(--color-main-darker);
 }
 
 #header-img {
@@ -96,7 +102,7 @@
         align-items: center;
         justify-content: center;
         padding-right: 25px;
-        padding-top: 8px;
+        padding-top: 16px;
     }
     
     #checkbox-menu {
@@ -136,10 +142,9 @@
 
     #checkbox-menu:checked + #menu-nav {
         align-items: center;
-        background-color: #2f3e9e;
+        background-color: var(--color-main);
         display: flex;
         justify-content: center;
-        padding: 10px;
         position: absolute;
         top: 80px;
         padding: 0 20px;
@@ -165,7 +170,7 @@
     }
 
     .btn-menu {
-        padding: 10px 0px;
+        padding: 10px;
     }
 
     .menu-width {
