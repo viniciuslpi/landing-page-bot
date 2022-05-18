@@ -3,39 +3,47 @@
         <div class="menu-width">
             <img id="logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
                 alt="">
-            <nav id="menu-nav">
-                <ul id="menu-items">
-                    <li>
-                        <a routerLink="/" class="menu-item btn-menu">Home</a>
-                    </li>
-                    <li>
-                        <a class="menu-item">
-                            <button (click)="scrollToElement('quem-somos-section')" class="btn-menu">Resumo</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menu-item">
-                            <button (click)="scrollToElement('projeto-section')" class="btn-menu">Projeto</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menu-item">
-                            <button (click)="scrollToElement('projeto2-section')" class="btn-menu">Visão e valores</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menu-item">
-                            <button (click)="scrollToElement('integrantes-section')" class="btn-menu">Integrantes</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a [href]="linkWhatsApp" class="menu-item btn-bot">Acesse o bot</a>
-                    </li>
-                </ul>
-            </nav>
+                <div class= "container"> 
+                    <input type="checkbox" id="checkbox-menu">
+                    <nav id="menu-nav">
+                        <ul id="menu-items">
+                            <li class="lista-item">
+                                <a routerLink="/" class="menu-item btn-menu">Home</a>
+                            </li>
+                            <li class="lista-item">
+                                <a class="menu-item">
+                                    <button (click)="scrollToElement('quem-somos-section')" class="btn-menu">Quem somos</button>
+                                </a>
+                            </li>
+                            <li class="lista-item">
+                                <a class="menu-item">
+                                    <button (click)="scrollToElement('projeto-section')" class="btn-menu">Projeto</button>
+                                </a>
+                            </li>
+                            <li class="lista-item">
+                                <a class="menu-item">
+                                    <button (click)="scrollToElement('projeto2-section')" class="btn-menu">Visão e valores</button>
+                                </a>
+                            </li>
+                            <li class="lista-item">
+                                <a class="menu-item">
+                                    <button (click)="scrollToElement('integrantes-section')" class="btn-menu">Integrantes</button>
+                                </a>
+                            </li>
+                            <li class="lista-item">
+                                <a [href]="linkWhatsApp" class="menu-item btn-bot">Acesse o bot</a>
+                            </li>
+                        </ul>
+                    </nav>                
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+            </div>
         </div>
     </section>
     <section id="header-img">
-
+        
     </section>
 </header>
