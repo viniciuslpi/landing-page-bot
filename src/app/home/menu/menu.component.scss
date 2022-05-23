@@ -42,18 +42,18 @@
     padding: 10px;
 }
 
-.btn-bot {
-    background-color: var(--color-main-darker);
-}
-
 .btn-menu {
     padding: 10px 20px;
     border: none;
-    background-color: transparent;
     color: white;
+    background-color: var(--color-main);
     font-size: inherit;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.btn-bot {
+    background-color: var(--color-main-darker);
 }
 
 .btn-menu:hover {

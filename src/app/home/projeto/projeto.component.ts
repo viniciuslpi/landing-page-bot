@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-projeto',
   templateUrl: './projeto.component.html',
   styleUrls: ['./projeto.component.scss']
 })
-export class ProjetoComponent implements OnInit {
+export class ProjetoComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  public linkWhatsApp: String = "https://wa.me/5511945206557?text=Olá,%20eu%20gostaria%20de%20informações%20sobre%20medicamentos%20gratuitos!";
 
 }

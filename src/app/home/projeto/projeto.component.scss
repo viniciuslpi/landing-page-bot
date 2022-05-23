@@ -60,6 +60,11 @@
 
 .btn-right {
     margin-left: 10px;
+    background-color: var(--color-main-darker);
+}
+
+.btn-right:hover {
+    background-color: var(--color-main);
 }
 
 
