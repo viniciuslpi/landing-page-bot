@@ -13,6 +13,17 @@
     align-items: center;
 }
 
+.logo-menu {
+    color: white;
+    text-decoration: none;
+    max-width: 50%;
+    max-height: 70%;
+    font-size: 2.1em;
+    border: 9px solid var(--color-main-darker);
+    background-color: var(--color-main-darker);
+    padding: 10px;
+}
+
 .menu-width a{
     height: inherit;
 }
@@ -140,6 +151,7 @@
         position: absolute;
         top: 80px;
         padding: 0 20px;
+        border-radius: 0px 0px 20px 20px;
         right: 0;
     }
 

@@ -48,6 +48,7 @@
     border: none;
     text-decoration: none;
     background-color: var(--color-main);
+    line-height: 1.2;
 }
 
 .btn:hover {
@@ -61,6 +62,8 @@
 .btn-right {
     margin-left: 10px;
     background-color: var(--color-main-darker);
+    display: flex;
+    align-items: center;
 }
 
 .btn-right:hover {
