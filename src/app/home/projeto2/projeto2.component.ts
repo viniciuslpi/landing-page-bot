@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Projeto2Component implements OnInit {
 
+  linkArtigo: String = "https://docs.google.com/document/d/1hytrvAoVCx0iRcza2x-kw5wxTQCaWOXyyPAiwERnIuA/edit?usp=sharing";
+
   constructor() { }
 
   ngOnInit(): void {
