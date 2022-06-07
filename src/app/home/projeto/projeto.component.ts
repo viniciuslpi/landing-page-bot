@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ProjetoComponent {
 
-  public linkWhatsApp: String = "https://wa.me/5511970456444?text=Olá,%20eu%20gostaria%20de%20informações%20sobre%20medicamentos%20gratuitos!";
+  public linkWhatsApp: String = "https://wa.me/5511992906137?text=Olá,%20eu%20gostaria%20de%20informações%20sobre%20medicamentos%20gratuitos!";
 
 }
