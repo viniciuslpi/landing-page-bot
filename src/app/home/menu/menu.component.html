@@ -4,47 +4,51 @@
             <a routerLink="/" class="logo-menu">
                 Remed+
             </a>
-                <div class= "container"> 
-                    <input type="checkbox" id="checkbox-menu">
-                    <nav id="menu-nav">
-                        <ul id="menu-items">
-                            <li class="lista-item">
-                                <a routerLink="/" class="menu-item btn-menu">Home</a>
-                            </li>
-                            <li class="lista-item">
-                                <a class="menu-item">
-                                    <button (click)="scrollToElement('quem-somos-section')" class="btn-menu">Resumo</button>
-                                </a>
-                            </li>
-                            <li class="lista-item">
-                                <a class="menu-item">
-                                    <button (click)="scrollToElement('projeto-section')" class="btn-menu">Solução</button>
-                                </a>
-                            </li>
-                            <li class="lista-item">
-                                <a class="menu-item">
-                                    <button (click)="scrollToElement('projeto2-section')" class="btn-menu">Artigo</button>
-                                </a>
-                            </li>
-                            <li class="lista-item">
-                                <a class="menu-item">
-                                    <button (click)="scrollToElement('integrantes-section')" class="btn-menu">Integrantes</button>
-                                </a>
-                            </li>
-                            <li class="lista-item">
-                                <a [href]="linkWhatsApp" class="menu-item btn-menu btn-bot">Acesse o bot</a>
-                            </li>
-                        </ul>
-                    </nav>                
-                    <label for="checkbox-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
+            <div class="container">
+                <input type="checkbox" id="checkbox-menu">
+                <nav id="menu-nav">
+                    <ul id="menu-items">
+                        <li class="lista-item">
+                            <a class="menu-item">
+                                <button routerLink="/" class="btn-menu">Home</button>
+                            </a>
+                        </li>
+                        <li class="lista-item">
+                            <a class="menu-item">
+                                <button (click)="scrollToElement('quem-somos-section')" class="btn-menu">Resumo</button>
+                            </a>
+                        </li>
+                        <li class="lista-item">
+                            <a class="menu-item">
+                                <button (click)="scrollToElement('projeto-section')" class="btn-menu">Solução</button>
+                            </a>
+                        </li>
+                        <li class="lista-item">
+                            <a class="menu-item">
+                                <button (click)="scrollToElement('projeto2-section')" class="btn-menu">Artigo</button>
+                            </a>
+                        </li>
+                        <li class="lista-item">
+                            <a class="menu-item">
+                                <button (click)="scrollToElement('integrantes-section')" class="btn-menu">Integrantes</button>
+                            </a>
+                        </li>
+                        <li class="lista-item">
+                            <button class="btn-menu">
+                                <a [href]="linkWhatsApp" class="menu-item btn-bot">Artigo</a>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <label for="checkbox-menu" id="icon-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
             </div>
         </div>
     </section>
     <section id="header-img">
-        
+
     </section>
 </header>
