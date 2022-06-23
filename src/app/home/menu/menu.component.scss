@@ -55,6 +55,7 @@
 }
 
 .btn-menu {
+    padding: 10px 20px;
     border: none;
     color: white;
     background-color: var(--color-main);
@@ -132,6 +133,7 @@
         justify-content: space-between;
         height: 30%;
         width: 35px;
+
     }
 
     label div {
@@ -161,6 +163,7 @@
 
     .btn-bot {
         background-color: transparent;
+        
     }
 
     .btn-menu {
